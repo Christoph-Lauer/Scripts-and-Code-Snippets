@@ -1,0 +1,57 @@
+SHELL/bash/sh/tcsh/phyton/perl/makefiles/php/ruby...:
+# @file         command.sh
+# @version      1.0
+# @date         2014
+# @author       Christoph Lauer
+# @client       none
+# @contributors none
+# @biref        foo bla plub 
+# @shell        bash/sh
+# @requires     commands and libraries
+# @usage        command.sh
+# @arguments    none
+# @see          http://en.wikipedia.org/...
+# @notes        none
+# @todo         finished so far
+# @copyright    Christoph Lauer Engineering
+# @license      cle commercial license
+
+C/C++/Java:
+/**
+ * @file         clauer_class_template.h
+ * @class        ClauerClassTemplate
+ * @version      1.0
+ * @date         2014
+ * @author       Christoph Lauer
+ * @contributors none
+ * @client       none
+ * @brief        Class template file
+ * @compiler     gcc
+ * @requires     commands and libraries
+ * @arguments    none
+ * @notes        none
+ * @see          http://en.wikipedia.org/…
+ * @todo         finished so far
+ * @copyright    Christoph Lauer engineering
+ * @license      cle commercial license
+ */
+
+Matlab:
+% @title        TITLE
+% @file         algo.m
+% @short        and pla pla algorithm 
+% @version      1.0
+% @date         12. Oktober 2015
+% @copyright    All rights reserved by Christoph Lauer Engineering
+% @author       Christoph Lauer Engineering
+% @contributors persons
+% @client       company
+% @language     MATLAB (Octave)
+% @packages     Image Processing Toolbox...
+% @param        none
+% @return       none
+% @notes        note
+% @todo         finished so far
+% @copyright    Christoph Lauer engineering
+% @license      cle commerial license
+% @brief        This matlab file implements a…
