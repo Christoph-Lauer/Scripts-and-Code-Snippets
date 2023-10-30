@@ -3,6 +3,8 @@
 # @file         setPowerAndSleepSettings.sh
 # @version      1.0
 # @date         2021
+# @modification (last) 30.10.2024
+# @note         adaption for macos 14 sonoma
 # @author       Christoph Lauer
 # @shell        bash/sh
 # @see          https://en.wikipedia.org/wiki/Pmset 
@@ -25,7 +27,8 @@ sudo pmset -a networkoversleep 0
 sudo pmset -c gpuswitch 1
 sudo pmset -a powernap 0
 sudo pmset -a tcpkeepalive 0
+sudo pmset -a darkwakes 0
 
 pmset -g assertions
-pmset -g log | egrep "\b(Sleep|Wake|DarkWake|Start)\s{2,}"
+pmset -g log | grep "DarkWake" | tail -10
 pmset -g
