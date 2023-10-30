@@ -27,7 +27,7 @@ sudo pmset -a networkoversleep 0
 sudo pmset -c gpuswitch 1
 sudo pmset -a powernap 0
 sudo pmset -a tcpkeepalive 0
-sudo pmset -a darkwakes 0
+sudo pmset -a darkwakes 0 (is this a hidden pareameter?)
 
 pmset -g assertions
 pmset -g log | grep "DarkWake" | tail -10
